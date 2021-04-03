@@ -1,4 +1,4 @@
-﻿#info {
+#info {
     border: 1px solid #F0F0F0;
     width: 550px;
     height: auto;
@@ -29,4 +29,19 @@ p {
     width: 500px;
     height: 500px;
     margin: auto;
+}
+
+#report {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#report .mb-3 {
+    padding: 10px;
+}
+
+#report label,
+#report input {
+    margin: 5px;
 }

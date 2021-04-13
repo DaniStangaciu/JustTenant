@@ -18,6 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="https://www.gov.uk/check-legal-aid">Check Financial Eligibility</a>
                     <a class="nav-link" href="signup.aspx">Sign Up</a>
                     <a class="nav-link" href="login.aspx">Login</a>
                     <a class="nav-link" href="legalaid.html">Generate Report</a>
@@ -28,7 +29,7 @@
     </nav>
     <form id="report">
 
-        <h3>Please fill out the form</h3>
+        <h3>Please fill out the form if you cannot find a solictor to take your case</h3>
         <div class="mb-3">
             <label for="housing-problem" class="form-label">Housing Problems</label>
             <select name="problems" id="housing-problem" style="display: block;">
@@ -37,16 +38,19 @@
             </select>
         </div>
 
-        <div class="mb-3">
-            <label for="annual-income" class="form-label">Annual income (&pound;)</label>
-            <input type="number" class="form-control" id="annual-income" aria-describedby="annual-income" placeholder="Type here...">
-        </div>
 
         <div class="mb-3">
             <label for="current-residence" class="form-label">How long have you lived at your current residence (weeks)</label>
             <input type="number" class="form-control" id="current-residence" aria-describedby="current-residence" min="0" max="100">
         </div>
 
+
+        <div class="mb-3">
+            <label for="annual-income" class="form-label">Annual income (&pound;)</label>
+            <input type="number" class="form-control" id="annual-income" aria-describedby="annual-income" placeholder="Type here...">
+        </div>
+
+      
         <div class="mb-3">
             <label for="partner" class="form-label">Do you have a partner</label><br />
             <select name="partner" id="partner" style="display: block;">

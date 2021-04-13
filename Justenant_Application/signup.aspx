@@ -24,6 +24,7 @@
                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     <a class="nav-link" href="signup.aspx">Sign Up</a>
                     <a class="nav-link" href="login.aspx">Login</a>
+                    <a class="nav-link" href="legalaid.html">Generate Report</a>
 
                 </div>
             </div>

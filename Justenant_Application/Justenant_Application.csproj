@@ -93,8 +93,10 @@
       <DependentUpon>JustenantModel.edmx</DependentUpon>
       <LastGenOutput>JustenantModel.cs</LastGenOutput>
     </Content>
+    <Content Include="legalaid.html" />
     <Content Include="loggedIn.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="script.js" />
     <Content Include="signup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

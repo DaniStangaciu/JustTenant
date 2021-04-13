@@ -20,6 +20,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                     <a class="nav-link" href="legalaid.aspx">Create Report</a>
                     <asp:Label ID="success" runat="server" Text="Label"></asp:Label>
                     <asp:Button ID="logout" runat="server" class="btn btn-secondary" Text="Log out" BackColor="#666666" Font-Names="Arial" OnClick="logout_Click" />
                 </div>

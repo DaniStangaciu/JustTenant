@@ -28,7 +28,7 @@ namespace Justenant_Application
                     Response.Write("<script>alert('Please enter valid Username and Password')</script>");
                     return;
                 }
-                Response.Redirect("legalaid.html");
+                Response.Redirect("loggedIn.aspx");
             }
             catch (Exception exp)
             {

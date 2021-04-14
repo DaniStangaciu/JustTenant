@@ -79,6 +79,7 @@
     <Content Include="App_Data\Just_Data_log.ldf">
       <DependentUpon>Just_Data.mdf</DependentUpon>
     </Content>
+    <Content Include="generatereport.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.css" />
     <Content Include="index.html" />
@@ -101,6 +102,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="generatereport.aspx.cs">
+      <DependentUpon>generatereport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="generatereport.aspx.designer.cs">
+      <DependentUpon>generatereport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -153,6 +161,7 @@
     <Content Include="JustenantModel.edmx.diagram">
       <DependentUpon>JustenantModel.edmx</DependentUpon>
     </Content>
+    <Content Include="jspdf.min.js" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

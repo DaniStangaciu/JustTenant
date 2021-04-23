@@ -54,5 +54,5 @@ function createPDF() {
 	}
 
 	doc.save("tenant-report.pdf");
-	alert("Congrats. Your form is submitted, Please explore the document in pdf format. ");
+	alert("Your form has been submitted, Please explore the document in pdf format. ");
 }

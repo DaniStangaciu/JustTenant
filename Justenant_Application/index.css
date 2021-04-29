@@ -9,6 +9,13 @@
 }
 
 
+#search {
+    width: 700px;
+    margin: 20px auto;
+}
+
+
+
 #map {
     margin: 30px auto;
     border: 1px solid grey;
@@ -34,6 +41,16 @@ p {
     padding: 20px;
 }
 
+
+    #report .mb-3 {
+        padding: 10px;
+    }
+
+    #report label,
+    #report input {
+        margin: 5px;
+    }
+
 #report .mb-3 {
     padding: 10px;
 }
@@ -42,6 +59,7 @@ p {
 #report input {
     margin: 5px;
 }
+
 
 #list {
     display: inline-block;

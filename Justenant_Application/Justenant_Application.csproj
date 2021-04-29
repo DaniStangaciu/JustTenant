@@ -75,82 +75,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Just_Data.mdf" />
-    <Content Include="App_Data\Just_Data_log.ldf">
-      <DependentUpon>Just_Data.mdf</DependentUpon>
-    </Content>
     <Content Include="Global.asax" />
     <Content Include="index.css" />
     <Content Include="index.html" />
     <Content Include="index.js" />
-    <Content Include="JustenantModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>JustenantModel.Context.cs</LastGenOutput>
-      <DependentUpon>JustenantModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="JustenantModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>JustenantModel.edmx</DependentUpon>
-      <LastGenOutput>JustenantModel.cs</LastGenOutput>
-    </Content>
-    <Content Include="loggedIn.aspx" />
-    <Content Include="login.aspx" />
-    <Content Include="signup.aspx" />
+    <Content Include="legalaid.html" />
+    <Content Include="script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="JustenantModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>JustenantModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="JustenantModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>JustenantModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="JustenantModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>JustenantModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="loggedIn.aspx.cs">
-      <DependentUpon>loggedIn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="loggedIn.aspx.designer.cs">
-      <DependentUpon>loggedIn.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="signup.aspx.cs">
-      <DependentUpon>signup.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="signup.aspx.designer.cs">
-      <DependentUpon>signup.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>JustenantModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="JustenantModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>JustenantModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="JustenantModel.edmx.diagram">
-      <DependentUpon>JustenantModel.edmx</DependentUpon>
-    </Content>
+    <Content Include="jspdf.min.js" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

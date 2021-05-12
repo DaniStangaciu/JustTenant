@@ -1,55 +1,39 @@
 #info {
     border: 1px solid #F0F0F0;
-    width: 610px;
+    width: 80%;
     height: auto;
     background-color: #F0F0F0;
     border-radius: 20px;
     margin: 30px auto;
     padding: 25px;
+    font-size: 1.5vw;
+    text-align: center;
 }
 
-
-#search {
-    width: 700px;
-    margin: 20px auto;
+#info ol {
+    font-size: 1.3vw;
+    text-align: left;
 }
-
-
 
 #map {
     margin: 30px auto;
     border: 1px solid grey;
     height: 400px;
-    width: 600px;
+    width: 100%;
     display: inline-block;
 }
 
-p {
-    text-align: center;
-}
-
-#signup {
-    padding: 10px;
-    width: 500px;
-    height: 500px;
+#solicitors {
+    width: 80%;
+    display: block;
     margin: auto;
 }
 
 #report {
-    width: 500px;
+    width: 50%;
     margin: 20px auto;
     padding: 20px;
 }
-
-
-    #report .mb-3 {
-        padding: 10px;
-    }
-
-    #report label,
-    #report input {
-        margin: 5px;
-    }
 
 #report .mb-3 {
     padding: 10px;
@@ -60,9 +44,44 @@ p {
     margin: 5px;
 }
 
+#report .mb-3 {
+    padding: 10px;
+}
+
+#report label,
+#report input {
+    margin: 5px;
+}
 
 #list {
     display: inline-block;
     margin: auto;
     padding: 10px;
+}
+
+.topnav {
+    background-color: #0098a7;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#legalaid {
+    font-size: 1.5vw;
+    margin: auto;
+    display: block;
+    width: 100%;
 }

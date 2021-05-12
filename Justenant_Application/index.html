@@ -15,71 +15,57 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="https://www.gov.uk/check-legal-aid">Check Legal Aid Eligibility</a>
+        <a href="legalaid.html">Generate Report</a>
 
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-
-                    <a class="nav-link" href="https://www.gov.uk/check-legal-aid">Check Financial Eligibility</a>
-                    <a class="nav-link" href="legalaid.html">Generate Report</a>
-
-                </div>
-            </div>
-        </div>
-    </nav>
-
+    </div>
 
     <div id="info">
         <p>
-
-
-            JusTenant is a website which provides you quick and efficient assistance if you are facing possession proceedings from your Local Authority landlord.<br /><br /> We will take you through a three-step process.
-
-
+            JusTenant is a website which provides you quick and efficient assistance if you are facing possession proceedings from your Local Authority landlord.
+            We will take you through a six-step process.
             <ol>
-                <li>Check financially eligibility for legal aid by the GOV website. If you are not financially eligible then you represent yourself at court with the report. </li>
-                <li>Check map for local solicitors who offer legal aid for housing. </li>
-                <li>Generate a report containing the important information about your case. You can show this to your solicitor before you enter court or use for yourself. </li>
+                <li>Check financially eligibility for legal aid by the GOV website here: <a href="https://www.gov.uk/check-legal-aid">www.gov.uk/check-legal-aid</a>.</li>
+                <li>Check the map for local solicitors and contact one one the solicitors to discuss your case if you are eligible for legal aid.</li>
+                <li>Fill in the provided form if you cannot find a solicitor to take your case or if you are ineligible for legal aid. </li>
+                <li>Take the generated report to the Solicitor if you are eligible for legal aid once you have contacted them. </li>
+                <li>If not eligible for legal aid, take the report to the court and check for the duty solicitor. If the duty solicitor can represent you, you show them the generated report. </li>
+                <li>If there are no duty solicitors, then you can represent yourself in court by presenting your generated report to the Judge.</li>
             </ol>
         </p>
     </div>
 
-    <form class="d-flex" id="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
 
-    <div style="margin: auto; width: 1000px;">
+    <div id="solicitors">
         <div id="map">
 
         </div>
         <div id="list">
             <h3>Solicitors in SE London</h3>
             <ul>
-                <li> <a href="https://www.qualitysolicitors.com/amphlettlissimore">Quality Solicitors Amphlett Lissimore (A)</a> </li>
-                <li> <a href="https://www.anthonygold.co.uk/">Anthony Gold (B)</a> </li>
-                <li> <a href="http://www.anthonyogunfeibosolicitors.com/">Anthony Ogunfeibo & Co (C)</a></li>
-                <li> <a href="https://www.brownandcosolicitors.co.uk/">Brown and Co Solicitors (D)</a> </li>
-                <li> <a href="https://dpglaw.co.uk/">Deighton Pierce Glynn (E)</a> </li>
-                <li> <a href="https://www.ebrattridge.com/">EBR Attridge Solicitors LLP (F)</a> </li>
-                <li> <a href="http://www.solicitors-barristers.co.uk/london/lambeth/fisher-meredith/">Fisher Meredith Solicitors (G) </a> </li>
-                <li> <a href="http://www.ganssolicitors.com/">Gans & Co Solicitors LLP (H)</a> </li>
-                <li> <a href="https://gtstewart.co.uk/">GT Stewart (I)</a> </li>
-                <li> <a href="http://www.hansenpalomares.co.uk/">Hansen Palomares (J)</a> </li>
-                <li> <a href="https://www.macklaw.co.uk/">Mackintosh Law (K)</a> </li>
-                <li> <a href="https://morrisonspowart.com/">Morrison Spowart Solictors (L)</a> </li>
-                <li> <a href="https://murrayspartnership.co.uk/">Murrays Partnership Solictors (M)</a> </li>
-                <li> <a href="http://philcoxgray.co.uk/">Philcox Gray Solitctors & Mediators (N)</a> </li>
-                <li> <a href="https://edwardsduthieshamash.co.uk/steel-shamash/">Steel & Shamash (O)</a> </li>
-                <li> <a href="https://tvedwards.com/">TV Edwards Solicitors LLP (P)</a> </li>
-                <li> <a href="https://venters.co.uk/">Venters Solicitors and Mediators (Q)</a> </li>
-                <li> <a href="https://www.wainwrightcummins.co.uk/">Wainwright & Cummins LLP (R)</a> </li>
+
+                <li> <a href="https://www.anthonygold.co.uk/">Anthony Gold</a> </li>
+                <li> <a href="https://dpglaw.co.uk/">Deighton Pierce Glynn </a> </li>
+                <li> <a href="http://www.ganssolicitors.com/">Gans & Co Solicitors LLP</a> </li>
+                <li> <a href="https://gtstewart.co.uk/">GT Stewart</a> </li>
+                <li> <a href="http://www.hansenpalomares.co.uk/">Hansen Palomares</a> </li>
+                <li> <a href="https://morrisonspowart.com/">Morrison Spowart Solictors</a> </li>
+                <li> <a href="https://tvedwards.com/">TV Edwards Solicitors LLP</a> </li>
+                <li> <a href="https://www.wainwrightcummins.co.uk/">Wainwright & Cummins LLP</a> </li>
+                <li> <a href="https://www.bloomfieldsolicitors.co.uk/">Bloomfield Solictors</a> </li>
+                <li> <a href="https://www.hja.net/">Hodge Jones & Allen Solicitors</a> </li>
+                <li> <a href="https://www.sternberg-reed.co.uk/">Sternberg Reed</a> </li>
+                <li> <a href="https://www.grandmachylesolicitors.co.uk/">Grand Machyle Solicitors </a> </li>
+                <li> <a href="https://brixtonadvice.org.uk/online-legal-clinic/">Brixton Advice Centre Legal Advice Clinic</a> </li>
+                <li> <a href="https://dls.org.uk/">Disability Law Service</a> </li>
+                <li> <a href="https://edwardsduthieshamash.co.uk/">Edwards Duthie Shamash Solicitors</a> </li>
+
             </ul>
         </div>
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <script src="index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_iTd9vtQX1qw73GrJT6mpY5oU7z5aNBw&callback=initMap&libraries=&v=weekly" async></script>
@@ -88,4 +74,3 @@
 
 
 </html>
-
